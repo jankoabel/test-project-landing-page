@@ -21,7 +21,7 @@ export default function Layout({ children }) {
         {children}
       </main>
       <footer className="flex flex-col items-center justify-center py-3 bg-slate-800 text-white">
-        <p>Created by Abrham Wube</p>
+        <p>Created by Abel Janko.</p>
         <div className="flex gap-2">
           <a href="https://www.github.com/abrshewube">
             <i className="bi bi-github" />
