@@ -23,10 +23,10 @@ export default function Layout({ children }) {
       <footer className="flex flex-col items-center justify-center py-3 bg-slate-800 text-white">
         <p>Created by Abel Janko.</p>
         <div className="flex gap-2">
-          <a href="https://www.github.com/abrshewube">
+          <a href="https://github.com/jankoabel">
             <i className="bi bi-github" />
           </a>
-          <a href="mailto:abrhamwube1@gmail.com">
+          <a href="mailto:jankoabel2022@gmail.com">
             <i className="bi bi-envelope-fill" />
           </a>
         </div>
