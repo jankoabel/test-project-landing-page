@@ -5,6 +5,7 @@ import h3 from './h3.png';
 import image from './bar.png';
 import quarterCircleImage from './quarter-circle.png';
 import  topRightImage from './hola.png'
+import innerImage from './last.png'
 
 function Promotion() {
   return (
@@ -34,9 +35,15 @@ function Promotion() {
           <div className="flex justify-between">
           <div className="relative w-1/2 mt-6">
   <img src={quarterCircleImage} alt="Quarter Circle" className="h-4/5 w-auto ml-8" />
-  <img src={topRightImage} alt="Top Right Image" className="absolute -top-8 right-10 w-32 h-32" />
-
+  <div className="absolute -top-8 right-10 w-32 h-32">
+    <img src={topRightImage} alt="Top Right Image" className="w-full h-full" />
+    <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-16 h-16">
+      <img src={innerImage} alt="Inner Image" className="w-8 h-8 ml-3" />
+    </div>
+  </div>
 </div>
+
+
 
         <div className="w-1/2 relative mt-7">
   <div className="absolute top-0 left-0 w-3/4 h-4/5 p-6 flex flex-col justify-between rounded-xl" style={{ backgroundColor: '#C0C0C0' }}>

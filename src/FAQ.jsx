@@ -38,31 +38,31 @@ function FAQPage() {
           <div className="border-t border-b border-gray-800" style={{marginRight: '30px'}}></div>
           <div className="border-t border-b border-gray-400" style={{marginRight: '30px'}}>
             <div className="flex items-center justify-between cursor-pointer py-4" onClick={() => togglePanel(1)}>
-              <h3 className="font-bold">Question 1</h3>
+              <h3 className="font-bold">What is Education Hub ?</h3>
               <span className="ml-auto text-xl font-bold" style={{ marginRight: '10px' }}>{isPanelOpen(1) ? '−' : '+'}</span>
             </div>
-            {isPanelOpen(1) && <p className="py-4">Answer 1</p>}
+            {isPanelOpen(1) && <p className="py-4">Add and manage courses, handle enrollments, organize with core zones and filters, and track notices. Stay in the loop with user reviews.</p>}
           </div>
           <div className="border-t border-b border-gray-400" style={{marginRight: '30px'}}>
             <div className="flex items-center justify-between cursor-pointer py-4" onClick={() => togglePanel(2)}>
-              <h3 className="font-bold">Question 2</h3>
+              <h3 className="font-bold">What is User & Access Hub ?</h3>
               <span className="ml-auto text-xl font-bold" style={{ marginRight: '10px' }}>{isPanelOpen(2) ? '−' : '+'}</span>
             </div>
-            {isPanelOpen(2) && <p className="py-4">Answer 2</p>}
+            {isPanelOpen(2) && <p className="py-4">Add and manage courses, handle enrollments, organize with core zones and filters, and track notices. Stay in the loop with user reviews.</p>}
           </div>
           <div className="border-t border-b border-gray-400" style={{marginRight: '30px'}}>
             <div className="flex items-center justify-between cursor-pointer py-4" onClick={() => togglePanel(3)}>
-              <h3 className="font-bold">Question 3</h3>
+              <h3 className="font-bold">What is Content Hub ?</h3>
               <span className="ml-auto text-xl font-bold" style={{ marginRight: '10px' }}>{isPanelOpen(3) ? '−' : '+'}</span>
             </div>
-            {isPanelOpen(3) && <p className="py-4">Answer 3</p>}
+            {isPanelOpen(3) && <p className="py-4">Add and manage courses, handle enrollments, organize with core zones and filters, and track notices. Stay in the loop with user reviews.</p>}
           </div>
           <div className="border-t border-b border-gray-400" style={{marginRight: '30px'}}>
             <div className="flex items-center justify-between cursor-pointer py-4" onClick={() => togglePanel(4)}>
-              <h3 className="font-bold">Question 4</h3>
+              <h3 className="font-bold">What is Financial Hub ?</h3>
               <span className="ml-auto text-xl font-bold " style={{ marginRight: '10px' }}>{isPanelOpen(4) ? '−' : '+'}</span>
             </div>
-            {isPanelOpen(4) && <p className="py-4">Answer 4</p>}
+            {isPanelOpen(4) && <p className="py-4">Add and manage courses, handle enrollments, organize with core zones and filters, and track notices. Stay in the loop with user reviews.</p>}
           </div>
           <div className="border-t border-b border-gray-800" style={{marginRight: '30px'}}></div>
         </div>
