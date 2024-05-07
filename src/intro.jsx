@@ -27,7 +27,11 @@ function Intro() {
 
           {/* First div */}
           <div className="flex items-center mt-4">
-            <FiUser size={24} className="text-red-500 mr-4" />
+          <div className="bg-green-200 mr-6 rounded-full h-12 w-12 flex items-center justify-center">
+  <FiUser size={24} className="text-red-500" />
+</div>
+
+
             <div>
               <h2 className="text-xl font-bold">First Section</h2>
               <p className="text-lg">
@@ -44,7 +48,9 @@ function Intro() {
 
           {/* Second div */}
           <div className="flex items-center mt-4">
-            <FiSettings size={24} className="text-red-500 mr-4" />
+          <div className="bg-green-200 rounded-full h-12 w-12 mr-6 flex items-center justify-center">
+  <FiSettings size={24} className="text-red-500" />
+</div>
             <div>
               <h2 className="text-xl font-bold">Second Section</h2>
               <p className="text-lg">
@@ -59,7 +65,10 @@ function Intro() {
           <br/>
           {/* Third div */}
           <div className="flex items-center mt-4">
-            <FiHelpCircle size={24} className="text-red-500 mr-4" />
+          <div className="bg-green-200 rounded-full h-12 w-12 flex items-center justify-center mr-6">
+  <FiHelpCircle size={24} className="text-red-500" />
+</div>
+
             <div>
               <h2 className="text-xl font-bold">Third Section</h2>
               <p className="text-lg">

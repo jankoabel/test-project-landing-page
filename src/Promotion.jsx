@@ -15,8 +15,11 @@ function Promotion() {
         <h1 className="text-6xl font-bold leading-tight">Stay ahead of the<br/> others with our<br/> Advanced LMS</h1>
         <p className="mt-4 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel tellus sed urna fermentum vulputate.</p>
         <div className="flex">
-          <button className="border border-black bg-black text-white px-6 py-3 rounded-full mr-4 font-bold">Schedule Demo    ---></button>
-          <a href="#" className="text-black underline mt-3 ml-6">View Knowledge base</a>
+        <button className="border border-black bg-black text-white px-6 py-3 rounded-full mr-4 font-bold">
+  Schedule Demo <span style={{ marginLeft: '24px' }}>➜</span>
+</button>
+
+          <a href="#" className="text-black underline mt-3 ml-6 font-bold">View Knowledge base</a>
         </div>
         <br />
         
@@ -46,10 +49,10 @@ function Promotion() {
 
 
         <div className="w-1/2 relative mt-7">
-  <div className="absolute top-0 left-0 w-3/4 h-4/5 p-6 flex flex-col justify-between rounded-xl" style={{ backgroundColor: '#C0C0C0' }}>
+  <div className="absolute top-0 left-0 w-3/4 h-4/5 p-6 flex flex-col justify-between rounded-xl" style={{ backgroundColor: '#F0F0F0' }}>
     <div>
-      <h1 className="text-4xl font-bold mb-4">230 +</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel tellus sed urna fermentum vulputate.</p>
+      <h1 className="text-6xl font-bold mb-4">230 +</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel.</p>
     </div>
     <hr className="border-t-4 border-black w-2/3 mb-4" />
     
@@ -60,9 +63,12 @@ function Promotion() {
           </div>
 
           {/* Bottom section */}
-          <div className="h-1/2 bg-black text-white p-6 flex items-center rounded-tl-xl mr-5">
-            <h2 className="text-3xl font-bold mr-8">Drive more traffic and Course sales</h2>
-            <img src={image} alt="Course Sales" className="w-56 h-auto mb-0 ml-4" />
+          <div className="h-1/2 bg-black text-white p-6 flex items-center rounded-tl-xl mr-5 ">
+          <div>
+    <p className="font-bold mb-4 text-xs ml-3">   <span style={{ marginTop: '500px' }} className="font-bold text-xs">─────── </span>  Drive more traffic and Course sales</p>
+    <h2 className="text-3xl font-bold mr-8">Drive more traffic and Course sales</h2>
+  </div>
+            <img src={image} alt="Course Sales" className="w-56 h-auto mb-0 ml-4" style={{ bottom: 0 }} />
           </div>
         </div>
       </div>

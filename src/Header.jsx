@@ -89,10 +89,10 @@ const Header = () => {
         <div>
           <div className="flex items-center mt-6">
             <div className="flex items-center">
-              <div>
-                ━━━━━━━━━━━━━━━━━━━━━━➤
+              <div className='text-green-500'>
+                ━━━━━━━━━━━━━━━━━━➤
                 <p className=" text-black">
-                  Hello wow hello wow helloow helloow hello
+                  Hello wow hello wow helloow helloow 
                 </p>
               </div>
             </div>
@@ -101,7 +101,7 @@ const Header = () => {
               style={{ marginInlineStart: "50px" }}
             >
               <div className="relative -ml-2" style={{ zIndex: 3 }}>
-                <div className="w-10 h-10 bg-white border border-black flex items-center justify-center rounded-full">
+                <div className="w-12 h-12 bg-white border border-black flex items-center justify-center rounded-full">
                   <FaUser className="w-6 h-6 text-black absolute" />
                 </div>
               </div>
@@ -109,7 +109,15 @@ const Header = () => {
                 className="relative -ml-2"
                 style={{ marginLeft: "-5px", zIndex: 2 }}
               >
-                <div className="w-10 h-10 bg-white border border-black flex items-center justify-center rounded-full">
+                <div className="w-12 h-12 bg-white border border-black flex items-center justify-center rounded-full">
+                  <FaCar className="w-6 h-6 text-black absolute" />
+                </div>
+              </div>
+              <div
+                className="relative -ml-2"
+                style={{ marginLeft: "-5px", zIndex: 2 }}
+              >
+                <div className="w-12 h-12 bg-white border border-black flex items-center justify-center rounded-full">
                   <FaCar className="w-6 h-6 text-black absolute" />
                 </div>
               </div>
@@ -117,13 +125,13 @@ const Header = () => {
                 className="relative -ml-2"
                 style={{ marginLeft: "-5px", zIndex: 1 }}
               >
-                <div className="w-10 h-10 bg-white border border-black flex items-center justify-center rounded-full">
+                <div className="w-12 h-12 bg-white border border-black flex items-center justify-center rounded-full">
                   <FaBook className="w-6 h-6 text-black absolute" />
                 </div>
               </div>
               <div className="relative -ml-2" style={{ marginLeft: "-5px" }}>
-                <div className="w-10 h-10 bg-white border border-black flex items-center justify-center rounded-full">
-                  <div className="w-6 h-6 rounded-full bg-white flex items-center justify-center text-xs text-black">
+                <div className="w-12 h-12 bg-gray-100 border border-black flex items-center justify-center rounded-full">
+                  <div className="w-6 h-6 rounded-full font-bold flex items-center justify-center text-xs text-black">
                     820+
                   </div>
                 </div>
