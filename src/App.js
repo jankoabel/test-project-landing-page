@@ -12,15 +12,12 @@ function App() {
      
     <Intro/>
     <LastPage/>
-    
+    <br/><br/><br/><br/><br/><br/>
     <Promotion/>
+    
     <FAQPage/>
     
-    <br/><br/> <br/><br/> 
- 
-    <br/><br/> 
-     
-    <br/><br/>
+    
   
 
  <br/><br/>
