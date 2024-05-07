@@ -4,27 +4,7 @@
 
 @import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
 
-.singleNote::-webkit-scrollbar {
-  display: none;
-}
-
-.singleNote {
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
-}
-
-.singleNote__textArea {
-  resize: none;
-}
-
-.singleNote__textArea::-webkit-scrollbar {
-  display: none;
-}
-.singleNote__textArea {
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
-}
-
-.modalOverlay{
-  background-color: rgba(0, 0, 0, 0.767);
+/* Prevent horizontal scrolling */
+html, body {
+  overflow-x: hidden;
 }
