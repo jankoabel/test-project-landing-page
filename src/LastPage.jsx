@@ -1,7 +1,6 @@
 import React from 'react';
-import topImage from './out.png';
-import bottomImage from './bot.png';
-import insideImage from './inside.png';
+import topImage from './harding.png';
+
 
 function LastPage() {
   return (
@@ -9,39 +8,30 @@ function LastPage() {
     <div className="flex">
       
       {/* Left section */}
-      <div className="w-1/2">
+      <div className="w-2/5">
         <div className="relative" style={{ width: '700px', height: '550px', position: 'relative' }}>
           {/* Top Image */}
           <img
             src={topImage}
             alt="Top Image"
-            style={{ width: '100%', height: '100%', zIndex: 4 }}
+            
           />
-          {/* Inside Image */}
-          <div className="absolute top-0 left-0 w-full h-full" style={{ zIndex: 1000 }}>
-            <img
-              src={insideImage}
-              alt="Inside Image"
-              style={{ position: 'absolute', top: '8px', left: '0px', width: '550px', height: '500px' }}
-            />
-          </div>
-          {/* Bottom Image */}
-          <img
-            src={bottomImage}
-            alt="Bottom Image"
-            style={{ position: 'absolute', left: 0, bottom: '-160px', width: '300px', height: '300px', zIndex: 2 }}
-          />
+         
+          
+          
         </div>
       </div>
 
       {/* Right section */}
-      <div className="w-1/2 px-8 ml-16">
-        <h1 className="text-4xl font-medium mt-8 mb-4">
-          Intuitive dashboard,<br />
-          which streamlines<br />
-          analytics
-        </h1>
-        <p className="font-bold text-lg mb-4">
+      <div className="w-3/5 px-2 ml-8">
+      <h1 className="text-4xl font-medium mt-8 mb-4" style={{ color: "#1F2026", fontFamily: "Inter, sans-serif", fontSize: "55px", lineHeight: "1.1" }}>
+  Intuitive dashboard,<br />
+  which streamlines<br />
+  analytics
+</h1>
+
+
+        <p className=" text-lg mb-4" style={{fontSize:"24px", lineHeight: "1.2", fontWeight:500}}>
           Supertrainer Empowering the Future of the the<br />
           Future of Education. We Future of understand the<br />
           understand the transformative Future of understand the<br />
@@ -57,11 +47,12 @@ function LastPage() {
          
         </p>
         <hr className="my-8 border-t border-gray-500" />
-        <p className="text-gray-500" style={{ fontFamily: 'Inter', fontSize: '19px', fontWeight: 680, textAlign: 'left' }}>
+        <p className="text-gray-500" style={{  fontSize: '21px', fontWeight: 680, textAlign: 'left', color: '#767A85' }}>
   Whether you are an educator Influencer, or institution looking,<br />
   Influencer, or institution looking Influencer, or institution looking<br />
   for an advanced educational platform, you're in the right place.<br />
 </p>
+
 
       </div>
 

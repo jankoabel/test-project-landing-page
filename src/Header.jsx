@@ -1,12 +1,15 @@
 import React from 'react'
 import img1 from "./TET1.png";
-import img2 from "./tet2.PNG";
+import img2 from "./montain.png";
+import hard from './hard.png'
+import done from './done.png'
+
 import { FaUser, FaCar, FaBook } from "react-icons/fa";
 const Header = () => {
   return (
     <div className="bg-white">
       <header className="bg-white text-black py-4">
-        <nav className="container mx-auto flex items-center justify-between">
+        <nav className="container mx-auto flex items-center justify-between mt-3">
           <div className="w-30%"></div>{" "}
           {/* Empty div to push the first link to start after 30% width */}
           <ul className="flex space-x-8 font-medium">
@@ -40,42 +43,45 @@ const Header = () => {
             {" "}
             {/* Empty div to push the "Join Us" link to the right */}
             <a
-              href="/join-us"
-              className="bg-green-800 text-white px-4 py-2 rounded hover:bg-green-600 font-medium"
-            >
-              Join Now
-            </a>
+  href="/join-us"
+  className="bg-green-800 text-white px-4 py-2 h-8 rounded hover:bg-green-600 font-medium"
+  style={{ backgroundColor: "#197A40" }}
+>
+  Join Now
+</a>
+
           </div>
         </nav>
       </header>
-      <div className="px-30 py-10 ml-32 max-w-400px">
-        <h1 className="text-7xl font-bold">
-          Unleash the Feature <br />{" "}
-          <span className="italic">of Education</span>
-        </h1>
+      <br /><br/>
+      <div className="px-30 py-10 ml-24 max-w-400px">
+      <h1 className="text-7xl font-semibold" style={{ color: "#1F2026" }}>
+  Unleash the Feature <br />{" "}
+  of  {" "}
+  <span style={{ color: "#1F2026", fontWeight: "460",fontFamily: 'Playfair Display, serif',textShadow: "1px 1px 2px rgba(0, 0, 0, 0.3)" , fontStyle: 'italic', fontWeight: 550, transform: 'skewY(-6deg)' }}>
+   Education
+</span>
+
+</h1>
+
         <br />
         <div className="flex items-start mt-6">
-          <div>
-            <p className="text-lg mt-6 font-bold">
-              Lorem ipsum dolor sit amet, consectetur adipiscing <br /> nunc
-              lacinia, vel pretium felis mollis. Ut quis hhhe
-              <br /> bibendum magna.
-            </p>
-          </div>
+        
+            <img src={hard} alt="Hard Image" />
           <div
             className="mt-64"
             style={{ position: "absolute", left: "0", top: "50%" }}
           >
-            <div style={{ height: "280px" }}>
+            <div style={{ height: "230px" }} className='mt-24'>
               <img
                 src={img2}
                 alt="Government of Austria Scholarships"
-                style={{ width: "700px", height: "100%" }}
+                style={{ width: "740px", height: "100%" }}
               />
             </div>
           </div>
 
-          <div className="ml-auto" style={{ position: "absolute", right: "0" }}>
+          <div className="ml-auto " style={{ position: "absolute", right: "0" }}>
             <div style={{ height: "530px" }}>
               <img
                 src={img1}
@@ -88,67 +94,17 @@ const Header = () => {
 
         <div>
           <div className="flex items-center mt-6">
-            <div className="flex items-center">
-              <div className='text-green-500'>
-                ━━━━━━━━━━━━━━━━━━➤
-                <p className=" text-black">
-                  Hello wow hello wow helloow helloow 
-                </p>
-              </div>
-            </div>
-            <div
-              className="ml-auto flex items-center"
-              style={{ marginInlineStart: "50px" }}
-            >
-              <div className="relative -ml-2" style={{ zIndex: 3 }}>
-                <div className="w-12 h-12 bg-white border border-black flex items-center justify-center rounded-full">
-                  <FaUser className="w-6 h-6 text-black absolute" />
-                </div>
-              </div>
-              <div
-                className="relative -ml-2"
-                style={{ marginLeft: "-5px", zIndex: 2 }}
-              >
-                <div className="w-12 h-12 bg-white border border-black flex items-center justify-center rounded-full">
-                  <FaCar className="w-6 h-6 text-black absolute" />
-                </div>
-              </div>
-              <div
-                className="relative -ml-2"
-                style={{ marginLeft: "-5px", zIndex: 2 }}
-              >
-                <div className="w-12 h-12 bg-white border border-black flex items-center justify-center rounded-full">
-                  <FaCar className="w-6 h-6 text-black absolute" />
-                </div>
-              </div>
-              <div
-                className="relative -ml-2"
-                style={{ marginLeft: "-5px", zIndex: 1 }}
-              >
-                <div className="w-12 h-12 bg-white border border-black flex items-center justify-center rounded-full">
-                  <FaBook className="w-6 h-6 text-black absolute" />
-                </div>
-              </div>
-              <div className="relative -ml-2" style={{ marginLeft: "-5px" }}>
-                <div className="w-12 h-12 bg-gray-100 border border-black flex items-center justify-center rounded-full">
-                  <div className="w-6 h-6 rounded-full font-bold flex items-center justify-center text-xs text-black">
-                    820+
-                  </div>
-                </div>
-              </div>
-            </div>
+            
+         
             
            
           </div>
-          <div className="mt-12">
-  <a
-    href="/signup"
-    className="bg-green-800 text-white px-6 py-3 rounded hover:bg-green-600 font-medium w-48 h-12"
-  >
-    Signup Now
-  </a>
-</div>
-
+          
+        </div>
+        <br /><br /><br /><br></br> <br /><br></br><br /><br></br><br /><br></br>
+        {/* Include the 'done' image here */}
+        <div className="mt-10">
+          <img src={done} alt="Done Image" />
         </div>
       </div>
     </div>

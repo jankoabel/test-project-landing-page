@@ -10,11 +10,13 @@ function App() {
    <div>
     <Header/>
     <br/><br/> <br/><br/> <br/><br/> <br/><br/> <br/><br/> <br/><br/> <br/><br/>
+    <Intro/>
     <FAQPage/>
-    <br/><br/> <br/><br/> 
     <Promotion/>
+    <br/><br/> <br/><br/> 
+ 
     <br/><br/> 
-     <Intro/>
+     
     <br/><br/>
     <LastPage/>
 
