@@ -7,18 +7,21 @@ import Intro from "./intro";
 import LastPage from "./LastPage";
 function App() {
   return (
-   <div>
+   <div style={{backgroundColor: "#F9F9F9"}}>
     <Header/>
-    <br/><br/> <br/><br/> <br/><br/> <br/><br/> <br/><br/> <br/><br/> <br/><br/>
+     
     <Intro/>
-    <FAQPage/>
+    <LastPage/>
+    
     <Promotion/>
+    <FAQPage/>
+    
     <br/><br/> <br/><br/> 
  
     <br/><br/> 
      
     <br/><br/>
-    <LastPage/>
+  
 
  <br/><br/>
      <Footer/> 
